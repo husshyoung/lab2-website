@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакти</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Контакти</h1>
+    <nav>
+      <a href="index.html">Головна</a>
+      <a href="contacts.html">Контакти</a>
+    </nav>
+  </header>
+
+  <main>
+<section class="info-container">
+   <h2>Про мене</h2>
+  <div class="info">
+    <img src="C:\Users\savch\Downloads\стів джобс(контакти).jpg" alt="Фото" class="float-left">
+    <p>Загальна інформація про тему. Загальна інформація про тему. Загальна інформація про тему.</p>
+    <img src="C:\Users\savch\Downloads\стів джобс(контакти).jpg" alt="Фото" class="float-right">
+    <p>Загальна інформація про тему. Загальна інформація про тему. Загальна інформація про тему.</p>
+    <p>Загальна інформація про тему. Загальна інформація про тему. Загальна інформація про тему.</p>
+    <img src="C:\Users\savch\Downloads\стів джобс(контакти).jpg" alt="Фото" class="float-left">
+    <p>Загальна інформація про тему. Загальна інформація про тему. Загальна інформація про тему.</p>
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="image-stack">
+    <img src="C:\Users\savch\Downloads\стів джобс(контакти).jpg" alt="Фото 1">
+    <img src="C:\Users\savch\Downloads\стів джобс(контакти).jpg" alt="Фото 2">
+    <img src="C:\Users\savch\Downloads\стів джобс(контакти).jpg" alt="Фото 3">
+  </div>
+
+</section>
+    <!-- Реєстрація -->
+    <section id="registration" class="form-section">
+      <h2>Форма реєстрації</h2>
+      <form>
+        <div class="profile-pic"></div>
+
+        <label>Ім'я</label>
+        <input type="text" name="name" placeholder="Ім'я">
+
+        <label>Прізвище</label>
+        <input type="text" name="surname" placeholder="Прізвище">
+
+        <div class="gender">
+          <span>Стать:</span>
+          <label><input type="radio" name="gender" value="male"> Чоловіча</label>
+          <label><input type="radio" name="gender" value="female"> Жіноча</label>
+        </div>
+
+        <label>Вік</label>
+        <input type="number" min="1" max="120" value="21">
+
+        <label>Дата народження</label>
+        <input type="date">
+
+        <label>Країна проживання</label>
+        <select>
+          <option>Україна</option>
+          <option>Польща</option>
+          <option>Німеччина</option>
+        </select>
+
+        <label>Номер телефону</label>
+        <input type="tel" placeholder="+380XXXXXXXXX">
+
+        <label>Соцмережа</label>
+        <input type="text" placeholder="Посилання на соцмережу">
+
+        <label>Електронна пошта</label>
+        <input type="email" placeholder="Ел. пошта">
+
+        <label>Пароль</label>
+        <input type="password" placeholder="Пароль">
+
+        <div class="terms">
+          <input type="checkbox" id="terms">
+          <label for="terms">Чи згідні Ви з умовами?</label>
+        </div>
+
+        <div class="buttons">
+          <button type="submit">Зареєструватися</button>
+          <button type="reset">Відмінити</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Вхід -->
+    <section id="login" class="form-section small-form">
+      <h2>Форма входу</h2>
+      <form>
+        <label>Ім'я</label>
+        <input type="text" placeholder="Ім'я">
+        <label>Пароль</label>
+        <input type="password" placeholder="Пароль">
+        <button type="submit">Увійти</button>
+      </form>
+    </section>
+
+    <!-- Форма зворотного зв'язку -->
+    <section id="contact-form" class="section-box">
+      <h2>Форма зворотного зв'язку</h2>
+      <form>
+        <label for="contact-name">Ім'я:</label>
+        <input type="text" id="contact-name" name="name" required>
+
+        <label for="contact-email">Email:</label>
+        <input type="email" id="contact-email" name="email" required>
+
+        <label for="contact-message">Повідомлення:</label>
+        <textarea id="contact-message" name="message" required></textarea>
+
+        <button type="submit">Надіслати</button>
+      </form>
+    </section>
+
+    <section id="contact-info" class="section-box">
+      <h2>Контактні дані</h2>
+      <p>Email: savchenko.oleksiy@lll.kpi.ua</p>
+      <p>Телефон: +380 68 098 48 31</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Сайт про Стіва Джобса</p>
+  </footer>
+</body>
+</html>
